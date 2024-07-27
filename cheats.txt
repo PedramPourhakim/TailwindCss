@@ -1,0 +1,12 @@
+npm install -D tailwindcss
+npx tailwindcss init
+
+add these lines to index.css file:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+In Vs code just go in the extension tab and search for "Postcss language Support" and install the below extension> And after that the warning will be gone.
+
+install this extension: tailwind css intellisense 
